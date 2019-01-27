@@ -1,0 +1,427 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  width: 100%;
+  max-width: 1173px;
+  margin: 0 auto;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.header {  
+  margin-top: 18px;
+}
+.header-logo{
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  width: 57px;
+  height: 57px;
+  background: url('https://pp.userapi.com/c849328/v849328377/10fd75/Sao-usSTaC4.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+.logo-name {
+  margin-left: 9px;
+}
+.name {
+  font-size: 16px;
+  font-weight: 800;
+  color: #2b2a2c;
+}
+.description {
+  font-size: 14px;
+  color: #6a696b;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+}
+.header-menu a {
+  position:relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #2b2a2c;  
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-right: 37px;
+}
+.menu-button {
+  background-color: transparent;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 14px;
+  color: #2b2a2c;
+  padding: 15px 15px;
+  border: 2px solid #2b2a2c;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.header-menu a:after {
+    display: block;
+    position: absolute;
+    content: "";
+    background-color: #000;
+    height: 3px;
+    width: 0%;
+    left:50%;
+    -webkit-transition: width .2s ease-in-out;
+    -moz--transition: width .2s ease-in-out;
+    transition: width .2s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.header-menu a:hover:after, .header-menu a:focus:after {
+    width: 100%;
+}
+.header-menu a[class="menu-button"]:hover:after {
+    width: 0%;
+}
+.hero-wrap {
+  margin-top: 20px;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  background: url('https://i.ibb.co/jG8zBdj/2-layers.png') no-repeat;
+  background-position: right bottom;
+}
+.hero-subtitle {
+  font-size: 32px;
+   letter-spacing: 1px;
+}
+.hero-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 45px;
+  letter-spacing: 1px;
+}
+
+.hero-decription {
+  font-size: 18px;
+  color: #6a696b;
+}
+.hero-social {
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+.social {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+}
+.bk_behance {
+  background-color: #1869ff;
+}
+.bk-facebook {
+  background-color: #3a5898;
+}
+.bk-instagram {
+  background-color: #13578a;
+}
+.bk-vk {
+  background-color: #56acef;
+}
+.hero-buttons {
+  display: inline-block;
+  letter-spacing: 0.8px;
+}
+.contact-me__btn {
+  background-color: #2b2a2c;
+  border-radius: 35px;
+  padding: 20px 34px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 16px;
+}
+.portfolio__btn {
+  background-color: transparent;
+  border-radius: 35px;
+  border: 2px solid #6a696b;
+  padding: 20px 34px;
+  color: #6a696b;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.main {
+  padding: 97px 0;
+}
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.project-card {
+  width: 370px;
+  min-height: 370px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 41px;
+}
+.card-image {
+  height: 300px;
+}
+.project-card__img-1 {
+  background: url('http://unbounce.com/photos/logi-landing-page-full.png') no-repeat center;
+  background-size: cover;
+}
+.project-card__img-2 {
+  background: url('https://i.ibb.co/3W1TpVC/screenshot.png') no-repeat center;
+  background-size: cover;
+}
+.project-card__img-3 {
+  background: url('https://unbounce-wpengine.netdna-ssl.com/photos/lp_hero.png') no-repeat center;
+  background-size: cover;
+}
+.project-card__img-4 {
+  background: url('https://d85wutc1n854v.cloudfront.net/live/products/600x375/WB0HC1537.png') no-repeat center;
+  background-size: cover;
+}
+.project-card__img-5 {
+  background: url('https://mk0abtastybwtpirqi5t.kinstacdn.com/content/uploads/mailchimp-landing-page-builder.jpg') no-repeat center;
+  background-size: cover;
+}
+.project-card__img-6 {
+  background: url('https://themes.getbootstrap.com/wp-content/uploads/2018/02/Screen-Shot-2018-07-11-at-12.28.10-1200x900.png') no-repeat center;
+  background-size: cover;
+}
+.project-card__img-7 {
+  background: url('https://cdn2.hubspot.net/hubfs/53/INBOUND%202017%20-%20Product%20Page%20Screenshots/Landing-Pages-Build-2.png') no-repeat center;
+  background-size: cover;
+}
+.project-card__img-8 {
+  background: url('https://static.wixstatic.com/media/1d37736619004032910617e868cf9ab6.jpg') no-repeat center;
+  background-size: cover;
+}
+.project-card__img-9 {
+  background: url('https://www.lyfemarketing.com/blog/wp-content/uploads/2018/07/landing-page.jpg') no-repeat center;
+  background-size: cover;
+}
+.card-info__category {
+  padding: 15px 0 15px 15px;
+  color: #2b2a2c;
+  display: block;
+}
+.car-info__name {
+  padding: 0 15px 15px 15px;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+}
+.about {
+  padding: 100px 0 70px;
+  margin-bottom: 105px;
+  background: 
+    url('https://i.ibb.co/5Bh428H/2-layers-1.png') no-repeat left bottom;
+  margin-right: 60px;
+  display: flex;
+  justify-content: flex-end;
+}
+.about-me__info {
+  max-width: 500px;
+}
+.about-me__info-title {
+  font-size: 45px;
+  text-transform: uppercase;
+}
+.about-me__info-text {
+  font-family: Montserrat;
+  font-size: 14px;
+  margin-bottom: 52px;
+  line-height: 20px;
+}
+.footer {
+  background-color: #2b2a2c;
+}
+.footer-info {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-text {
+  display: flex;
+  align-items: center;
+}
+footer a {
+  color: #8d8d8e;
+}
+.copyright {
+  color: #8d8d8e;
+  font-size: 14px;
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid #413f41;
+}
+.fotter-social__links {
+  font-size: 20px;
+  text-decoration: none;
+  margin-right: 13px;
+}
+.footer-menu {
+  display: flex;
+  align-items: center;
+}
+.footer-menu a {
+  margin-left: 25px; 
+  text-decoration: none;
+}
+.footer-button {
+  background-color: transparent;
+  border-radius: 20px;
+  color: #8d8d8e;
+  border: 1px solid #8d8d8e;
+  margin-left: 25px;
+  padding: 8px 23px;
+}
+@media (max-width: 1250px){
+  .container {
+    width: 90%;
+  }
+  .hero-subtitle {
+    font-size: 24px;
+  }
+  .hero-title {
+    font-size: 34px;
+  }
+  .hero-decription {
+    font-size: 16px;
+  }
+  .project-cards {
+     justify-content: space-around;
+  }
+  .project-card {
+    width: 47%;
+  }
+  .about {
+    width: 100%;
+  }
+   .about {
+    padding-top: 0;
+    background-size: 50%;
+    width: 100%;
+    background-position: top left;
+
+  }
+  .about-me__info-title {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .about-me__info {
+    width: 50%;
+    padding-bottom: 0
+  }
+}
+@media (max-width: 990px){
+  .container {
+    width: 90%;
+  }
+  .hero-wrap {
+    padding-bottom: 550px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .hero-info {
+    display: block;
+    text-align: center;
+  }
+  .about {
+    background-size: 70%;
+    width: 100%;
+    background-position: top center;
+    justify-content: center;
+  }
+  .about-me__info {
+    width: 95%;
+    margin-top: 75%;
+     max-width: none;
+  }
+  .about-me__info-title {
+    text-align: center;
+    display: block;
+  }
+  .about-me__info-text{
+    width: 100%;
+  }
+  .about-me__btn{
+    display: block;
+    text-align: center;
+  }
+  .header-menu {
+    display: none;
+  }
+   .copyright {
+    display: block;
+    margin: 0 auto;
+  }
+  .footer-menu {
+    display: none;
+  }
+  .footer-info {
+    display: block;
+  }
+}
+@media (max-width: 768px){
+  .container {
+    width: 90%;
+  }
+  .footer-menu {
+    display: none;
+  }
+  .footer-info {
+    display: block;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .copyright {
+    display: block;
+    margin: 0 auto;
+  }
+  .description{
+    font-size: 16px;
+  }
+  .hero-subtitle {
+    font-size: 18px;
+  }
+  .project-cards {
+    justify-content: center;
+  }
+  .project-card {
+    width: 90%;
+  }
+  .hero-buttons {
+    display: block;
+    text-align: center;
+  }
+  .contact-me__btn, .portfolio__btn {
+    display: inline-block;
+    text-align: center;
+    margin: 5px auto;
+  }
+  .hero-wrap {
+    background: none;
+    padding-bottom: 0;
+  }
+  .about-me__info-text {
+    font-size: 18px;
+  }
+}
